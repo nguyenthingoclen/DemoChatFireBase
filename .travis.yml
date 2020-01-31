@@ -1,0 +1,14 @@
+language: android
+dist: trusty
+android:
+ components:
+    - build-tools-29.0.2
+    - android-29
+    - extra
+script:
+  - sonar-scanner
+addons: 
+ sonarqube:
+organization: "nguyenthingoclen"
+token:
+ secure: "Bf0DS7R2eQY36H7P1c2rsgis5zlmj4rm8y6qg/6gTwwRLQNLSqA3y0CUZFH+TLtey1pO4jjU5IutxRyOEoSaiDZLLS+2ocV3Jwqj2eaNmoiH4m+FyGYUqBWWsQLsTD4q8bC4B4UYolgtej4VTr25rmFaJGHA1c91wx5YGIneu2EMuAF4oR2dJQoZ22irl97PyZYdSx0eE3ESnuCHEuSlKhnn/PAJSxx3tjxGyelgHSsiVSaWt6rZUdBVT0pQr8JmimaoHZfycuHdQl85Q05GhYyQOqdi8pSQxBghXoc6BeQI7jEYIORz6FepjjG38r4C85nOZdUNbpPntNhOsfakMYEhX9Ux+SWylhUwy8d1gPt5eQv50O64/g54RrjjwzGHz0EZGdRdWbN1O0WVJ9KExSQFTmq2TybLZIGAlvW1umGrdRg0YgD8yLCu9konFjYLHRr1fONFNIfBb9a7blujrpD2+RsCfMibCNqFTD+Q1Y4mZXIckJqYLo3/OnmmK3myBHi4eo3Od7MSuMsrha+nessXlihqate/ZUpmf5FvbH5KHhpVkjGNNGzHSbWrxYqChIU/XrX58vfWtP5msChwg3/bjr/ApU3kUW5Q3TFcHmzwaEuP9S4xcNkkv1Yp2tiIZn+1BqYFll3wlRwFXWxFAijiXU2AtN3xacFPGgoZBfQ="
