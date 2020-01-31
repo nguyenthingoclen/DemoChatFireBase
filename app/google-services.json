@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "909282008303",
+    "firebase_url": "https://demochatfirebase-70dfa.firebaseio.com",
+    "project_id": "demochatfirebase-70dfa",
+    "storage_bucket": "demochatfirebase-70dfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909282008303:android:827474716eea29c5cb0f1a",
+        "android_client_info": {
+          "package_name": "com.example.demochatfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909282008303-u1acdi07sve31bf6jjgbo0lkv5e79lcp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.demochatfirebase",
+            "certificate_hash": "d79251e6f6311707d4a0bb20bdaece7e3bd43be2"
+          }
+        },
+        {
+          "client_id": "909282008303-peegppc4e95j381ba0t0sp7qto3o1uue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJwqWukR84z-eg-Ag2lgYiUYfRVbKQSS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909282008303-peegppc4e95j381ba0t0sp7qto3o1uue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
